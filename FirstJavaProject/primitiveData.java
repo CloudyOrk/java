@@ -1,4 +1,4 @@
-package com.company;
+package com.cloudy;
 public class primitveData {
   public static void main(String[] args){
     byte age = 18;
