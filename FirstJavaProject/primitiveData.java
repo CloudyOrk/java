@@ -1,5 +1,5 @@
-package com.primitivetype;
-public class Primitive {
+package com.company;
+public class primitveData {
   public static void primitive(String[] args){
     byte Variable1 = 8;
     // range -128 to 127 [ -(2^8)/2 to (2^8)/2-1 ] 
