@@ -32,6 +32,13 @@ public class Primitive {
     // 2 byte
     // supports unicode
     // Default value \u0000
+
+    int num1 = 5;
+    int num2 = 5;
+    int num3 = 2;
+    int num4 = 1;
+    int sum = num1 + num2 + num3 + num4;
+    System.out.println("The sum of numbers is: ", sum);
   }
 }
     
