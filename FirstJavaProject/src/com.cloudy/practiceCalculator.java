@@ -13,7 +13,7 @@ public class practiceCalculator{
     float subject4 = sc.nextFloat();
     System.out.print("Enter your subject 5 marks: ");
     float subject5 = sc.nextFloat();
-    float total = (subject1 + subject2 + subject3 + subject4 + subject5)f;
+    float total = (subject1 + subject2 + subject3 + subject4 + subject5);
     float percentage = total/500*100;
     System.out.print("Your percentage is: " + percentage);
   }
