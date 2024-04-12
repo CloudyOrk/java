@@ -80,8 +80,7 @@ public class problem4{
     // 5 
     System.out.println("Enter the year");
     int year = sc.nextInt();
-    float leap_year = year / 4.0f;
-    if ( leap_year.endsWith(".0")) {
+    if ( year == 0 && year % 100 != 0) || (year % 400 == 0) {
       System.out.format("Yes, the year %year is a leap year");
     }
     else {
