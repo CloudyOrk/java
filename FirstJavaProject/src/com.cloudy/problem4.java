@@ -86,6 +86,21 @@ public class problem4{
     else {
       System.out.format("No, the year %year is not a leap year");
     }
+
+    // 6
+    String url = sc.next();
+    if (url.endsWith(".com")) {
+      System.out.println("This is a commercial website");
+    } 
+    else if ( url.endsWith(".org")) {
+      System.out.println("This is an organisation website");
+    } 
+    else if ( url.endsWith(".in")) {
+      System.out.println("This is an Indian website");
+    } 
+    else {
+      System.out.println("Invalid URL");
+    } 
   }
 }
     
