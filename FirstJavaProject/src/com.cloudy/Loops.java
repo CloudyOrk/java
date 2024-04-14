@@ -5,7 +5,7 @@ public class Loops{
     // while loops
     int i = 0;
     while(i<=1000) {
-      inc = i++
+      inc = i++;
       System.out.println(inc);
     } 
     System.out.println("Done!");
@@ -16,12 +16,22 @@ public class Loops{
     } 
 
     // 100 - 200 numbers 
-    int i = 100;
-    while(i<=200) {
-      inc = i++
-      System.out.println(inc);
+    int j = 100;
+    while(j<=200) {
+      incr = j++;
+      System.out.println(incr);
     } 
     System.out.println("Done!");
+
+
+   // do while loop
+    int k = 1;
+    do{                      // no condition check, executes one time guarantee
+      System.out.println(k);
+      k++;
+    } while (k<=5521);       // condition check here
+
+    // for loops
     
   } 
 } 
