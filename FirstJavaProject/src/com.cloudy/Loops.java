@@ -32,7 +32,20 @@ public class Loops{
     } while (k<=5521);       // condition check here
 
     // for loops
-    
+    for ( int ii = 0; ii <=10; ii++ ) {
+      System.out.println(ii);
+    }
+
+    // odd numbers
+    int nn = 5
+    for ( int iii=0; iii<n; iii++){
+      System.out.println(2*iii+1);
+    }
+
+    // decrementing for loop
+    for(int a=5521; a>0; a--){
+      System.out.println(a)
+        }
   } 
 } 
     
